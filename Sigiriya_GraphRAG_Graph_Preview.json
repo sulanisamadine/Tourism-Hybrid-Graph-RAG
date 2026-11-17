@@ -1,0 +1,29 @@
+{
+  "source_chunks_found": 22,
+  "entities_defined": 49,
+  "facts_defined": 54,
+  "facts_with_exact_source_passages": 54,
+  "failures": [],
+  "chunks_with_structured_fact_links": 22,
+  "chunks_without_structured_facts": [],
+  "approved_relation_types": [
+    "ACCESSIBLE_VIA",
+    "AVAILABLE_AT",
+    "DEPICTS",
+    "DEVELOPED",
+    "HAS_ACTIVITY",
+    "HAS_ADVICE",
+    "HAS_ATTRACTION",
+    "HAS_EXAMPLE",
+    "HAS_FEATURE",
+    "HAS_RISK",
+    "HAS_SERVICE",
+    "HAS_STATUS",
+    "NAMED_FOR",
+    "NEARBY",
+    "TRAVEL_TO",
+    "TRAVEL_VIA",
+    "USES"
+  ],
+  "database_modified": false
+}

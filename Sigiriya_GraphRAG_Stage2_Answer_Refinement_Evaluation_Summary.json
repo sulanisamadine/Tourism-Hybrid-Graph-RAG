@@ -1,0 +1,72 @@
+{
+  "question_count": 30,
+  "supported_count": 24,
+  "unsupported_live_count": 3,
+  "unsupported_static_count": 3,
+  "methods": {
+    "legacy_rule": {
+      "mean_precision_at3": 0.4583,
+      "mean_recall_at3": 0.375,
+      "mean_f1_at3": 0.4028,
+      "all_required_at3": 7,
+      "all_required_at3_denominator": 24,
+      "multi_all_required_at3": 4,
+      "multi_denominator": 14,
+      "single_top1": 3,
+      "single_denominator": 10
+    },
+    "original_rrf": {
+      "mean_precision_at3": 0.4444,
+      "mean_recall_at3": 1.0,
+      "mean_f1_at3": 0.6,
+      "all_required_at3": 24,
+      "all_required_at3_denominator": 24,
+      "multi_all_required_at3": 14,
+      "multi_denominator": 14,
+      "single_top1": 10,
+      "single_denominator": 10
+    },
+    "multi_query": {
+      "mean_precision_at3": 0.4444,
+      "mean_recall_at3": 1.0,
+      "mean_f1_at3": 0.6,
+      "all_required_at3": 24,
+      "all_required_at3_denominator": 24,
+      "multi_all_required_at3": 14,
+      "multi_denominator": 14,
+      "single_top1": 10,
+      "single_denominator": 10
+    },
+    "graph_hybrid": {
+      "mean_precision_at3": 0.4444,
+      "mean_recall_at3": 1.0,
+      "mean_f1_at3": 0.6,
+      "all_required_at3": 24,
+      "all_required_at3_denominator": 24,
+      "multi_all_required_at3": 14,
+      "multi_denominator": 14,
+      "single_top1": 10,
+      "single_denominator": 10
+    }
+  },
+  "graph_starting_entity_recall": 1.0,
+  "graph_two_hop_exact_path_rate": 1.0,
+  "graph_two_hop_questions_with_any_path": 6,
+  "unsafe_supported_decline_rate": 0.0,
+  "live_safely_declined": 3,
+  "static_safely_declined": 3,
+  "unsupported_not_declined": [],
+  "mean_latency_ms": 226.7627,
+  "mean_original_rrf_ms": 48.3544,
+  "mean_multi_query_ms": 58.5074,
+  "mean_graph_expansion_ms": 18.1107,
+  "mean_answer_ms": 126.8733,
+  "limitations": [
+    "Source-informed, author-authored provisional labels; not a blind external evaluation.",
+    "A retrieved relevant chunk is not proof the generated answer is correct.",
+    "Source passages may describe outdated prices/hours; live data remains unsupported.",
+    "Multi-hop success here tests retrieved paths, not multi-step reasoning correctness."
+  ],
+  "question_set_sha256": "1141f98ba0b2c91f291316809d5e3557058e3e5ceb118f73b7c03985c78101f2",
+  "evaluation_writes_to_neo4j": false
+}

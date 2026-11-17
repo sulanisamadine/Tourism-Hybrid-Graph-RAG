@@ -1,0 +1,31 @@
+﻿id,kind,question,gold_chunks,gold_anchors,gold_path,annotator_status
+N01,single,සිංහ දොරටුවේ ඉතිරිව ඇති විශාල ගල් පාද පිළිබඳ විස්තර තියෙන්නේ කොයි කොටසේද?,sigiriya_003,sg:lionpaws,,SOURCE_INFORMED_PROVISIONAL
+N02,single,බටහිර පර්වත මුහුණතේ තිබූ සිතුවම් වලින් අද ඉතිරි වී ඇත්තේ කෙතරම් කොටසක්ද?,sigiriya_004,sg:fresco,,SOURCE_INFORMED_PROVISIONAL
+N03,single,ඔප දමා තිබූ කැටපත් පවුර ගැන පැරණි සංචාරකයන් කළ දේ කුමක්ද?,sigiriya_005,sg:mirror,,SOURCE_INFORMED_PROVISIONAL
+N04,single,පැරණි දිය උල්පත්වලට ජලය ලැබුණේ කුමන මාර්ගවලින්ද?,sigiriya_007,sg:fountain,,SOURCE_INFORMED_PROVISIONAL
+N05,single,භික්ෂූන් වෙනුවෙන් කළ පරිත්‍යාග සටහන් සඳහන් වන පුරාවිද්‍යා ප්‍රදේශය කුමක්ද?,sigiriya_008,sg:inscriptions,,SOURCE_INFORMED_PROVISIONAL
+N06,single,නාගයෙකුගේ පෙනයකට සමාන ස්වභාවික ගල් හැඩය ගැන ලේඛනයේ සඳහන් වන්නේ කොතැනද?,sigiriya_009,sg:cobra,,SOURCE_INFORMED_PROVISIONAL
+N07,single,පුරාණ නගරයේ ගෘහ නිර්මාණය ගැන තවත් ඉගෙන ගන්න යා හැකි ස්ථානය කුමක්ද?,sigiriya_010,sg:museum,,SOURCE_INFORMED_PROVISIONAL
+N08,single,පුරාවිද්‍යාත්මක කරුණු ඉගෙන ගැනීමට සංචාරක මාර්ගෝපදේශක සේවය ප්‍රයෝජනවත් වන්නේ ඇයි?,sigiriya_011,sg:guide,,SOURCE_INFORMED_PROVISIONAL
+N09,single,උදෑසන පැමිණීමෙන් සංචාරක පිරිස සම්බන්ධයෙන් ලැබෙන වාසිය කුමක්ද?,sigiriya_019,sg:morning,,SOURCE_INFORMED_PROVISIONAL
+N10,single,වැස්ස තිබියදී පර්වතය නැගීමේදී පඩිපෙළ ගැන සලකා බැලිය යුතු දේ මොකක්ද?,sigiriya_020,sg:slip,,SOURCE_INFORMED_PROVISIONAL
+N11,multi,අලි සෆාරි සංචාරයක් එක් කිරීමටත් සීගිරිය අවට නවාතැන් තෝරා ගැනීමටත් තිබෙන විකල්ප විස්තර කරන්න.,sigiriya_015;sigiriya_018,sg:safari;sg:accom,,SOURCE_INFORMED_PROVISIONAL
+N12,multi,ජල උද්‍යානවල ඉංජිනේරු පද්ධතිය සහ දිය උල්පත් වල ක්‍රියාකාරිත්වය දෙකම පැහැදිලි කරන්න.,sigiriya_006;sigiriya_007,sg:watergarden;sg:fountain,,SOURCE_INFORMED_PROVISIONAL
+N13,multi,නාග පෙන ගුහාවේ සුවිශේෂී හැඩයත් ගල් උද්‍යානයේ පරිත්‍යාග ලේඛනත් ගැන කියන්න.,sigiriya_009;sigiriya_008,sg:cobra;sg:boulder,,SOURCE_INFORMED_PROVISIONAL
+N14,multi,සීගිරි කෞතුකාගාරයෙන් ඉගෙන ගන්න පුළුවන් කරුණු සහ පුරාවිද්‍යා ස්ථානවල වගකීමෙන් හැසිරීම ගැන කියන්න.,sigiriya_010;sigiriya_022,sg:museum;sg:responsible,,SOURCE_INFORMED_PROVISIONAL
+N15,multi,සීගිරියේ ආහාර ලබාගැනීමේ තැන් සහ පර්වතය නැගීමට පෙර ජලය රැගෙන යාම ගැන විස්තර දෙන්න.,sigiriya_017;sigiriya_020,sg:food;sg:water,,SOURCE_INFORMED_PROVISIONAL
+N16,multi,පිදුරංගල නැගීමට අවශ්‍ය දේවල් සහ දඹුල්ල ඔස්සේ සීගිරියට පැමිණෙන ගමන් මාර්ගය පැහැදිලි කරන්න.,sigiriya_013;sigiriya_016,sg:pidurangala;sg:dambulla,,SOURCE_INFORMED_PROVISIONAL
+N17,multi,Melu's Rock වෙතින් බලන්න පුළුවන් දර්ශන සහ මින්නේරිය සෆාරි අවස්ථා ගැන කියන්න.,sigiriya_014;sigiriya_015,sg:melus;sg:minneriya,,SOURCE_INFORMED_PROVISIONAL
+N18,multi,සීගිරි චිත්‍රවල දැක්වෙන රූප සහ කෞතුකාගාරයෙන් දැනගන්න පුළුවන් ඉතිහාසය ගැන පැහැදිලි කරන්න.,sigiriya_004;sigiriya_010,sg:fresco;sg:museum,,SOURCE_INFORMED_PROVISIONAL
+N19,multi_hop,සීගිරියේ ප්‍රධාන පර්වත ආකර්ෂණයට සම්බන්ධ පැරණි සිංහ පාද පිළිබඳ ලේඛන තොරතුරු සොයන්න.,sigiriya_003,sg:rock,sg:dest>sg:rock>sg:lionpaws,SOURCE_INFORMED_PROVISIONAL
+N20,multi_hop,සීගිරිය අසල පිදුරංගල වෙත නැගීමේදී පාවහන් ගැන දී ඇති උපදෙස පැහැදිලි කරන්න.,sigiriya_013,sg:pidurangala,sg:dest>sg:pidurangala>sg:shoes,SOURCE_INFORMED_PROVISIONAL
+N21,multi_hop,සීගිරියේ ජල උද්‍යානවලට සම්බන්ධ භූගත ජල මාර්ග ගැන සඳහන් කරන්නේ කෙසේද?,sigiriya_006,sg:watergarden,sg:dest>sg:watergarden>sg:channels,SOURCE_INFORMED_PROVISIONAL
+N22,multi_hop,සීගිරියේ කැටපත් පවුර හා එය මත ලියූ පැරණි කවි අතර ඇති සම්බන්ධය පැහැදිලි කරන්න.,sigiriya_005,sg:mirror,sg:dest>sg:mirror>sg:graffiti,SOURCE_INFORMED_PROVISIONAL
+N23,multi_hop,සීගිරියේ සඳහන් නවාතැන් විකල්ප අතර Hotel Sigiriya ද ලැයිස්තුගත වී තිබේද?,sigiriya_018,sg:accom,sg:dest>sg:accom>sg:hotel_sigiriya,SOURCE_INFORMED_PROVISIONAL
+N24,multi_hop,සීගිරියේ දිය උල්පත් ආකර්ෂණය හා ජල පීඩනය භාවිතය අතර සම්බන්ධය කියන්න.,sigiriya_007,sg:fountain,sg:dest>sg:fountain>sg:pressure,SOURCE_INFORMED_PROVISIONAL
+N25,unsupported_live,මේ සවස මින්නේරියේ ජීප් සෆාරි වාහනයක් වෙන් කළ හැකිද?,,,,SOURCE_INFORMED_PROVISIONAL
+N26,unsupported_live,හෙට උදේ සීගිරිය අවට කාලගුණ අනතුරු ඇඟවීමක් නිකුත් වී තිබේද?,,,,SOURCE_INFORMED_PROVISIONAL
+N27,unsupported_live,මේ මොහොතේ සීගිරියේ නවාතැන් ගාස්තු වට්ටම් තිබෙනවද?,,,,SOURCE_INFORMED_PROVISIONAL
+N28,unsupported_static,සීගිරි කෞතුකාගාරය තුළ තිබෙන මුළු ප්‍රදර්ශන භාණ්ඩ සංඛ්‍යාව කීයද?,,,,SOURCE_INFORMED_PROVISIONAL
+N29,unsupported_static,Duwannagala මුදුන මුහුදු මට්ටමේ සිට මීටර් කීයක් උසද?,,,,SOURCE_INFORMED_PROVISIONAL
+N30,unsupported_static,සීගිරි කැටපත් පවුර පළමුව තැනූ ශිල්පියාගේ සම්පූර්ණ නම කුමක්ද?,,,,SOURCE_INFORMED_PROVISIONAL

@@ -1,0 +1,917 @@
+{
+  "schema_version": "1.0",
+  "scope": "Sigiriya",
+  "source_document": "Sinhala Sigiriya tourism document (22 existing chunks)",
+  "note": "Curated relations from source text; each needle validated against its source section and revalidated against Neo4j c.text before writing. No dates/prices represented as current.",
+  "entities": [
+    {
+      "id": "sg:dest",
+      "name": "සීගිරිය",
+      "kind": "Destination",
+      "aliases": [
+        "සීගිරිය",
+        "සීගිරියේ",
+        "සීගිරියට",
+        "Sigiriya",
+        "සිංහගිරිය"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:king",
+      "name": "කාශ්‍යප රජු",
+      "kind": "Person",
+      "aliases": [
+        "කාශ්‍යප රජු",
+        "කාශ්‍යප",
+        "කාශ්‍යප රජතුමා"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:rock",
+      "name": "සීගිරි පර්වතය",
+      "kind": "Attraction",
+      "aliases": [
+        "සීගිරි පර්වතය",
+        "සීගිරි පර්වතයේ",
+        "පර්වතය",
+        "සිංහගිරිය"
+      ],
+      "legacy_attraction": "Sigiriya Rock"
+    },
+    {
+      "id": "sg:fresco",
+      "name": "සීගිරි බිතුසිතුවම්",
+      "kind": "Attraction",
+      "aliases": [
+        "සීගිරි බිතුසිතුවම්",
+        "සීගිරි ලලනා",
+        "බිතුසිතුවම්",
+        "සිතුවම්"
+      ],
+      "legacy_attraction": "Sigiriya Frescoes"
+    },
+    {
+      "id": "sg:mirror",
+      "name": "කැටපත් පවුර",
+      "kind": "Attraction",
+      "aliases": [
+        "කැටපත් පවුර",
+        "කැටපත් පවුරේ",
+        "Mirror Wall"
+      ],
+      "legacy_attraction": "Mirror Wall"
+    },
+    {
+      "id": "sg:watergarden",
+      "name": "ජල උද්‍යාන",
+      "kind": "Attraction",
+      "aliases": [
+        "ජල උද්‍යාන",
+        "ජල උද්‍යානය",
+        "ජල උද්‍යානවල"
+      ],
+      "legacy_attraction": "Water Gardens"
+    },
+    {
+      "id": "sg:fountain",
+      "name": "දිය උල්පත් උද්‍යානය",
+      "kind": "Attraction",
+      "aliases": [
+        "දිය උල්පත් උද්‍යානය",
+        "දිය උල්පත්",
+        "ජල උල්පත්",
+        "Fountain Garden"
+      ],
+      "legacy_attraction": "Fountain Garden"
+    },
+    {
+      "id": "sg:boulder",
+      "name": "ගල් උද්‍යානය",
+      "kind": "Attraction",
+      "aliases": [
+        "ගල් උද්‍යානය",
+        "ගල් උද්‍යාන",
+        "විශාල ගල් අතර",
+        "Boulder Garden"
+      ],
+      "legacy_attraction": "Boulder Garden"
+    },
+    {
+      "id": "sg:cobra",
+      "name": "නාග පෙන ගුහාව",
+      "kind": "Attraction",
+      "aliases": [
+        "නාග පෙන ගුහාව",
+        "නාග පෙන ගුහාවේ",
+        "Cobra Hood Cave"
+      ],
+      "legacy_attraction": "Cobra Hood Cave"
+    },
+    {
+      "id": "sg:museum",
+      "name": "සීගිරි කෞතුකාගාරය",
+      "kind": "Attraction",
+      "aliases": [
+        "සීගිරි කෞතුකාගාරය",
+        "කෞතුකාගාරය",
+        "සීගිරි කෞතුකාගාරයෙන්"
+      ],
+      "legacy_attraction": "Sigiriya Museum"
+    },
+    {
+      "id": "sg:pidurangala",
+      "name": "පිදුරංගල",
+      "kind": "NearbyPlace",
+      "aliases": [
+        "පිදුරංගල",
+        "පිදුරංගලේ",
+        "Pidurangala"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:minneriya",
+      "name": "මින්නේරිය ජාතික වනෝද්‍යානය",
+      "kind": "NearbyPlace",
+      "aliases": [
+        "මින්නේරිය ජාතික වනෝද්‍යානය",
+        "මින්නේරිය",
+        "Minneriya"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:kaudulla",
+      "name": "කවුඩුල්ල ජාතික වනෝද්‍යානය",
+      "kind": "NearbyPlace",
+      "aliases": [
+        "කවුඩුල්ල ජාතික වනෝද්‍යානය",
+        "කවුඩුල්ල",
+        "Kaudulla"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:duwannagala",
+      "name": "Duwannagala",
+      "kind": "Viewpoint",
+      "aliases": [
+        "Duwannagala",
+        "දුන්නාගල"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:mapagala",
+      "name": "Mapagala",
+      "kind": "Viewpoint",
+      "aliases": [
+        "Mapagala"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:melus",
+      "name": "Melu's Rock",
+      "kind": "Viewpoint",
+      "aliases": [
+        "Melu's Rock",
+        "Melus Rock"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:dambulla",
+      "name": "දඹුල්ල",
+      "kind": "TransportHub",
+      "aliases": [
+        "දඹුල්ල",
+        "දඹුල්ලෙන්",
+        "Dambulla"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:colombo",
+      "name": "කොළඹ",
+      "kind": "Origin",
+      "aliases": [
+        "කොළඹ",
+        "කොළඹ සිට",
+        "Colombo"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:kandy",
+      "name": "මහනුවර",
+      "kind": "Origin",
+      "aliases": [
+        "මහනුවර",
+        "මහනුවර සිට",
+        "Kandy"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:bus",
+      "name": "බස් රථ",
+      "kind": "Transport",
+      "aliases": [
+        "බස් රථ",
+        "බස්",
+        "පොදු ප්‍රවාහනය"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:tuk",
+      "name": "ත්‍රිරෝද රථ",
+      "kind": "Transport",
+      "aliases": [
+        "ත්‍රිරෝද රථ",
+        "ටුක් ටුක්",
+        "ත්‍රිරෝද"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:accom",
+      "name": "නවාතැන්",
+      "kind": "Service",
+      "aliases": [
+        "නවාතැන්",
+        "හෝටල්",
+        "නවාතැන් පහසුකම්",
+        "රැඳී සිටීමට"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:food",
+      "name": "ආහාර සහ පාන",
+      "kind": "Service",
+      "aliases": [
+        "ආහාර සහ පාන",
+        "කෑම බීම",
+        "ආහාර",
+        "අවන්හල්"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:guide",
+      "name": "සංචාරක මාර්ගෝපදේශකයන්",
+      "kind": "Service",
+      "aliases": [
+        "සංචාරක මාර්ගෝපදේශකයන්",
+        "මාර්ගෝපදේශක",
+        "guide"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:safari",
+      "name": "සෆාරි සංචාරය",
+      "kind": "Activity",
+      "aliases": [
+        "සෆාරි සංචාරය",
+        "සෆාරි",
+        "ජීප් සෆාරි"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:hiking",
+      "name": "කඳු නැගීම",
+      "kind": "Activity",
+      "aliases": [
+        "කඳු නැගීම",
+        "නැගීම",
+        "තරණය කිරීම",
+        "තරණය"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:morning",
+      "name": "උදෑසන නැරඹීම",
+      "kind": "Advice",
+      "aliases": [
+        "උදෑසන නැරඹීම",
+        "උදෑසන",
+        "උදේ කාලය",
+        "උදේ",
+        "සුදුසු වේලාව"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:shoes",
+      "name": "සුදුසු පාවහන්",
+      "kind": "Advice",
+      "aliases": [
+        "සුදුසු පාවහන්",
+        "පාවහන්"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:water",
+      "name": "පානීය ජලය",
+      "kind": "Advice",
+      "aliases": [
+        "පානීය ජලය",
+        "ජලය රැගෙන"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:wasps",
+      "name": "බඹරුන්",
+      "kind": "Risk",
+      "aliases": [
+        "බඹරුන්",
+        "බඹර",
+        "බඹර කූඩු"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:slip",
+      "name": "ලිස්සනසුලු පඩිපෙළ",
+      "kind": "Risk",
+      "aliases": [
+        "ලිස්සනසුලු පඩිපෙළ",
+        "ලිස්සනසුලු",
+        "වැසි සහිත"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:responsible",
+      "name": "වගකීම් සහිත සංචාරක හැසිරීම",
+      "kind": "Advice",
+      "aliases": [
+        "වගකීම් සහිත සංචාරක හැසිරීම",
+        "වගකීමෙන් හැසිර",
+        "සටහන් ආරක්ෂා"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:lionpaws",
+      "name": "සිංහ පාද",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "සිංහ පාද",
+        "සිංහ පාද දෙක",
+        "Lion Paws"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:palace",
+      "name": "පැරණි රාජ මාලිගාවේ නටබුන්",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "පැරණි රාජ මාලිගාවේ නටබුන්",
+        "මාලිගාව",
+        "රාජ මාලිගාව"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:women",
+      "name": "කාන්තා රූප",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "කාන්තා රූප",
+        "අප්සරාවන්",
+        "දිව්‍ය කාන්තාවන්"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:graffiti",
+      "name": "පැරණි කවි සහ සටහන්",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "පැරණි කවි සහ සටහන්",
+        "කවි සහ විවිධ සටහන්",
+        "සීගිරි කුරුටු ගී"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:channels",
+      "name": "භූගත ජල මාර්ග",
+      "kind": "EngineeringFeature",
+      "aliases": [
+        "භූගත ජල මාර්ග",
+        "ජල මාර්ග"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:pressure",
+      "name": "ගුරුත්වාකර්ෂණය සහ ජල පීඩනය",
+      "kind": "EngineeringFeature",
+      "aliases": [
+        "ගුරුත්වාකර්ෂණය සහ ජල පීඩනය",
+        "ගුරුත්වාකර්ෂණය",
+        "ජල පීඩනය"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:inscriptions",
+      "name": "පැරණි ශිලා ලේඛන",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "පැරණි ශිලා ලේඛන",
+        "ශිලා ලේඛන",
+        "ගල් ලේඛන"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:hoodrock",
+      "name": "නාග පෙන හැඩැති ගල",
+      "kind": "HistoricFeature",
+      "aliases": [
+        "නාග පෙන හැඩැති ගල",
+        "නාගයෙකුගේ විහිදුණු පෙන"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:unesco",
+      "name": "යුනෙස්කෝ ලෝක උරුම තත්ත්වය",
+      "kind": "HeritageStatus",
+      "aliases": [
+        "යුනෙස්කෝ ලෝක උරුම තත්ත්වය",
+        "ලෝක උරුම",
+        "යුනෙස්කෝ",
+        "UNESCO"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:view",
+      "name": "සීගිරි පර්වතයේ දර්ශන",
+      "kind": "Viewpoint",
+      "aliases": [
+        "සීගිරි පර්වතයේ දර්ශන",
+        "අවට දර්ශන",
+        "සුන්දර දර්ශන"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:aliya",
+      "name": "Aliya Resort and Spa",
+      "kind": "Accommodation",
+      "aliases": [
+        "Aliya Resort and Spa"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:cinnamon",
+      "name": "Cinnamon Lodge Habarana",
+      "kind": "Accommodation",
+      "aliases": [
+        "Cinnamon Lodge Habarana"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:hotel_sigiriya",
+      "name": "Hotel Sigiriya",
+      "kind": "Accommodation",
+      "aliases": [
+        "Hotel Sigiriya"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:kassapa",
+      "name": "Kassapa Lions Rock",
+      "kind": "Accommodation",
+      "aliases": [
+        "Kassapa Lions Rock"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:sinhagiri",
+      "name": "Sinhagiri Villa",
+      "kind": "Accommodation",
+      "aliases": [
+        "Sinhagiri Villa"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:jetwing",
+      "name": "Jetwing Vil Uyana",
+      "kind": "Accommodation",
+      "aliases": [
+        "Jetwing Vil Uyana"
+      ],
+      "legacy_attraction": null
+    },
+    {
+      "id": "sg:water_hotel",
+      "name": "Water Garden Sigiriya",
+      "kind": "Accommodation",
+      "aliases": [
+        "Water Garden Sigiriya"
+      ],
+      "legacy_attraction": null
+    }
+  ],
+  "facts": [
+    {
+      "subject": "sg:king",
+      "relation": "DEVELOPED",
+      "object": "sg:dest",
+      "chunk_id": "sigiriya_002",
+      "needle": "කාශ්‍යප රජු සීගිරිය තම රාජධානියේ අගනුවර ලෙස තෝරාගෙන"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_STATUS",
+      "object": "sg:unesco",
+      "chunk_id": "sigiriya_001",
+      "needle": "1982 වසරේදී සීගිරිය යුනෙස්කෝ"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:rock",
+      "chunk_id": "sigiriya_003",
+      "needle": "ප්‍රධාන ක්‍රියාකාරකම වන්නේ සීගිරි පර්වතය තරණය කිරීමයි"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:fresco",
+      "chunk_id": "sigiriya_004",
+      "needle": "සීගිරියේ ප්‍රසිද්ධම අංගයක් වන්නේ එහි පැරණි බිතුසිතුවම්ය"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:mirror",
+      "chunk_id": "sigiriya_005",
+      "needle": "කැටපත් පවුර සීගිරියේ තවත් වැදගත්"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:watergarden",
+      "chunk_id": "sigiriya_006",
+      "needle": "සීගිරි පුරාවිද්‍යා සංකීර්ණයට ඇතුළු වූ පසු"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:fountain",
+      "chunk_id": "sigiriya_007",
+      "needle": "සීගිරියේ ප්‍රධාන මාර්ගය දෙපස"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:boulder",
+      "chunk_id": "sigiriya_008",
+      "needle": "ගල් උද්‍යානය විශාල ස්වභාවික ගල්"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:cobra",
+      "chunk_id": "sigiriya_009",
+      "needle": "නාග පෙන ගුහාව සීගිරියේ"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ATTRACTION",
+      "object": "sg:museum",
+      "chunk_id": "sigiriya_010",
+      "needle": "සීගිරි කෞතුකාගාරය නැරඹිය හැකිය"
+    },
+    {
+      "subject": "sg:rock",
+      "relation": "HAS_FEATURE",
+      "object": "sg:lionpaws",
+      "chunk_id": "sigiriya_003",
+      "needle": "විශාල ගල් සිංහ පාද දෙක දැකගත හැකිය"
+    },
+    {
+      "subject": "sg:rock",
+      "relation": "HAS_FEATURE",
+      "object": "sg:palace",
+      "chunk_id": "sigiriya_003",
+      "needle": "පර්වතයේ මුදුනේ පැරණි රාජ මාලිගාව"
+    },
+    {
+      "subject": "sg:rock",
+      "relation": "HAS_ACTIVITY",
+      "object": "sg:hiking",
+      "chunk_id": "sigiriya_003",
+      "needle": "සීගිරි පර්වතය තරණය කිරීමයි"
+    },
+    {
+      "subject": "sg:fresco",
+      "relation": "DEPICTS",
+      "object": "sg:women",
+      "chunk_id": "sigiriya_004",
+      "needle": "මෙම සිතුවම්වල කාන්තා රූප"
+    },
+    {
+      "subject": "sg:mirror",
+      "relation": "HAS_FEATURE",
+      "object": "sg:graffiti",
+      "chunk_id": "sigiriya_005",
+      "needle": "මෙම පවුර මත කවි සහ විවිධ සටහන් ලියා ඇත"
+    },
+    {
+      "subject": "sg:mirror",
+      "relation": "HAS_ADVICE",
+      "object": "sg:responsible",
+      "chunk_id": "sigiriya_005",
+      "needle": "කැටපත් පවුර මත ලිවීම තහනම් කර ඇත"
+    },
+    {
+      "subject": "sg:watergarden",
+      "relation": "HAS_FEATURE",
+      "object": "sg:channels",
+      "chunk_id": "sigiriya_006",
+      "needle": "භූගත ජල මාර්ග සහ වෙනත් ජල පද්ධති"
+    },
+    {
+      "subject": "sg:fountain",
+      "relation": "HAS_FEATURE",
+      "object": "sg:channels",
+      "chunk_id": "sigiriya_007",
+      "needle": "භූගත ජල මාර්ග ඔස්සේ ජලය"
+    },
+    {
+      "subject": "sg:fountain",
+      "relation": "USES",
+      "object": "sg:pressure",
+      "chunk_id": "sigiriya_007",
+      "needle": "ගුරුත්වාකර්ෂණය සහ ජල පීඩනය භාවිත කරමින්"
+    },
+    {
+      "subject": "sg:boulder",
+      "relation": "HAS_FEATURE",
+      "object": "sg:inscriptions",
+      "chunk_id": "sigiriya_008",
+      "needle": "පැරණි ශිලා ලේඛන දැකගත හැකිය"
+    },
+    {
+      "subject": "sg:cobra",
+      "relation": "NAMED_FOR",
+      "object": "sg:hoodrock",
+      "chunk_id": "sigiriya_009",
+      "needle": "නාගයෙකුගේ විහිදුණු පෙනයක හැඩයට සමාන"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:pidurangala",
+      "chunk_id": "sigiriya_013",
+      "needle": "පිදුරංගල සීගිරියට උතුරින් පිහිටි"
+    },
+    {
+      "subject": "sg:pidurangala",
+      "relation": "HAS_ACTIVITY",
+      "object": "sg:hiking",
+      "chunk_id": "sigiriya_013",
+      "needle": "පිදුරංගල සීගිරියට උතුරින් පිහිටි ජනප්‍රිය කඳු නැගීමේ ස්ථානයකි"
+    },
+    {
+      "subject": "sg:pidurangala",
+      "relation": "HAS_ADVICE",
+      "object": "sg:shoes",
+      "chunk_id": "sigiriya_013",
+      "needle": "අවසාන කොටසේ විශාල ගල් අතරින් නැගීමට සිදුවන බැවින් සුදුසු පාවහන්"
+    },
+    {
+      "subject": "sg:pidurangala",
+      "relation": "HAS_FEATURE",
+      "object": "sg:view",
+      "chunk_id": "sigiriya_013",
+      "needle": "එහි සිට සීගිරි පර්වතය සහ අවට ප්‍රදේශයේ ඉතා සුන්දර දර්ශන"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:duwannagala",
+      "chunk_id": "sigiriya_014",
+      "needle": "Duwannagala ප්‍රදේශයෙන් අවට තැනිතලා"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:mapagala",
+      "chunk_id": "sigiriya_014",
+      "needle": "Mapagala සීගිරියට දකුණින් පිහිටි"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:melus",
+      "chunk_id": "sigiriya_014",
+      "needle": "Melu's Rock වෙතින්ද සීගිරිය"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:minneriya",
+      "chunk_id": "sigiriya_015",
+      "needle": "මින්නේරිය සහ කවුඩුල්ල ජාතික වනෝද්‍යාන සීගිරියට උතුරින්"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "NEARBY",
+      "object": "sg:kaudulla",
+      "chunk_id": "sigiriya_015",
+      "needle": "මින්නේරිය සහ කවුඩුල්ල ජාතික වනෝද්‍යාන සීගිරියට උතුරින්"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ACTIVITY",
+      "object": "sg:safari",
+      "chunk_id": "sigiriya_015",
+      "needle": "සීගිරිය නැරඹීම සමඟ වනජීවී සෆාරි සංචාරයක්ද"
+    },
+    {
+      "subject": "sg:safari",
+      "relation": "AVAILABLE_AT",
+      "object": "sg:minneriya",
+      "chunk_id": "sigiriya_015",
+      "needle": "මින්නේරිය සහ කවුඩුල්ල ජාතික වනෝද්‍යාන"
+    },
+    {
+      "subject": "sg:safari",
+      "relation": "AVAILABLE_AT",
+      "object": "sg:kaudulla",
+      "chunk_id": "sigiriya_015",
+      "needle": "මින්නේරිය සහ කවුඩුල්ල ජාතික වනෝද්‍යාන"
+    },
+    {
+      "subject": "sg:colombo",
+      "relation": "TRAVEL_VIA",
+      "object": "sg:dambulla",
+      "chunk_id": "sigiriya_016",
+      "needle": "කොළඹ සිට පැමිණෙන සංචාරකයන්ට දඹුල්ල දෙසට"
+    },
+    {
+      "subject": "sg:kandy",
+      "relation": "TRAVEL_VIA",
+      "object": "sg:dambulla",
+      "chunk_id": "sigiriya_016",
+      "needle": "මහනුවර සිට දඹුල්ල දෙසට"
+    },
+    {
+      "subject": "sg:dambulla",
+      "relation": "TRAVEL_TO",
+      "object": "sg:dest",
+      "chunk_id": "sigiriya_016",
+      "needle": "එතැන් සිට සීගිරිය වෙත ගමන් කළ හැකිය"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "ACCESSIBLE_VIA",
+      "object": "sg:bus",
+      "chunk_id": "sigiriya_016",
+      "needle": "බස් රථ භාවිත කරමින් දඹුල්ල"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "ACCESSIBLE_VIA",
+      "object": "sg:tuk",
+      "chunk_id": "sigiriya_016",
+      "needle": "ත්‍රිරෝද රථ හෝ වෙනත් ප්‍රවාහන සේවා"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_SERVICE",
+      "object": "sg:food",
+      "chunk_id": "sigiriya_017",
+      "needle": "සීගිරිය සහ අවට ප්‍රදේශයේ ආහාර සහ පාන"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_SERVICE",
+      "object": "sg:accom",
+      "chunk_id": "sigiriya_018",
+      "needle": "සීගිරිය සහ හබරණ අවට විවිධ වර්ගයේ නවාතැන්"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:aliya",
+      "chunk_id": "sigiriya_018",
+      "needle": "Aliya Resort and Spa"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:cinnamon",
+      "chunk_id": "sigiriya_018",
+      "needle": "Cinnamon Lodge Habarana"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:hotel_sigiriya",
+      "chunk_id": "sigiriya_018",
+      "needle": "Hotel Sigiriya"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:kassapa",
+      "chunk_id": "sigiriya_018",
+      "needle": "Kassapa Lions Rock"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:sinhagiri",
+      "chunk_id": "sigiriya_018",
+      "needle": "Sinhagiri Villa"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:jetwing",
+      "chunk_id": "sigiriya_018",
+      "needle": "Jetwing Vil Uyana"
+    },
+    {
+      "subject": "sg:accom",
+      "relation": "HAS_EXAMPLE",
+      "object": "sg:water_hotel",
+      "chunk_id": "sigiriya_018",
+      "needle": "Water Garden Sigiriya"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ADVICE",
+      "object": "sg:morning",
+      "chunk_id": "sigiriya_019",
+      "needle": "බොහෝ සංචාරකයන් උදෑසන සීගිරිය නැරඹීමට"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ADVICE",
+      "object": "sg:water",
+      "chunk_id": "sigiriya_020",
+      "needle": "ප්‍රමාණවත් පානීය ජලය රැගෙන යාම"
+    },
+    {
+      "subject": "sg:rock",
+      "relation": "HAS_RISK",
+      "object": "sg:slip",
+      "chunk_id": "sigiriya_020",
+      "needle": "ගල් සහ ලෝහ පඩිපෙළ ලිස්සනසුලු"
+    },
+    {
+      "subject": "sg:rock",
+      "relation": "HAS_RISK",
+      "object": "sg:wasps",
+      "chunk_id": "sigiriya_021",
+      "needle": "සීගිරි පර්වතයේ ඇතැම් ප්‍රදේශවල බඹර කූඩු"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ADVICE",
+      "object": "sg:responsible",
+      "chunk_id": "sigiriya_022",
+      "needle": "පවුරු, ගල්, නටබුන් හෝ වෙනත් පුරාවිද්‍යාත්මක ස්ථාන මත ලිවීම"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_SERVICE",
+      "object": "sg:guide",
+      "chunk_id": "sigiriya_011",
+      "needle": "සංචාරක මාර්ගෝපදේශකයන්ගේ සේවයද ලබාගත හැකිය"
+    },
+    {
+      "subject": "sg:dest",
+      "relation": "HAS_ACTIVITY",
+      "object": "sg:hiking",
+      "chunk_id": "sigiriya_012",
+      "needle": "සීගිරි පර්වතය තරණය කිරීම."
+    }
+  ]
+}
